@@ -1,0 +1,13 @@
+public class Main {
+    public static void main(String[] args) {
+        PessoaFactory fabrica = new PessoaFactory();
+
+        Pessoa p1 = fabrica.criarPessoa("Lucas", 22);
+        Pessoa p2 = fabrica.criarPessoa("Amanda", 33);
+        Pessoa p3 = fabrica.criarPessoa("Rafael", 44);
+
+        System.out.println(p1);
+        System.out.println(p2);
+        System.out.println(p3);
+    }
+}
